@@ -1,0 +1,73 @@
+/* Stylesheet for the Full Screen
+Landing page project 11/23/2021 
+
+font-family: 'Courgette', cursive;*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+section#intro {
+	background-image: url("navysun.jpg");
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+div#content {
+	display: table-cell;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div#content h1 {
+	font-family: 'Cougette', cursive;
+	font-size: 500%;
+	color: antiquewhite;
+	letter-spacing: 5px;
+	text-shadow: 2px 0px 10px white;
+	margin-bottom: 20px;
+}
+
+a#btn {
+	text-decoration: none;
+	color: antiquewhite;
+	text-shadow: 2px 0px 10px navy;
+	font-size: 250%;
+	padding: 10px 20px;
+	transition: all 1s;
+}
+
+a#btn:hover {
+	color: steelblue;
+	border: solid papayawhip; 3px;
+	border-radius: 20px;
+}
+
+p {
+	font-size: 120%;
+	text-align: ;
+	margin: 10px;
+}
+
+/* Media Query Styling */
+@media screen and (max-width: 768px) {
+	div#content h1 {
+		font-size: 400%;
+	}
+	a#btn {
+		font-size: 150%;
+	}
+
+	p {
+		display: none;
+
+
+	}
+
+} /*end of media query */
